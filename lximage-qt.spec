@@ -6,12 +6,12 @@
 Summary:	The image viewer and screenshot tool for LXQt
 Summary(pl.UTF-8):	Przeglądarka obrazów i narzędzie do tworzenia zrzutów ekranu dla LXQt
 Name:		lximage-qt
-Version:	2.4.0
+Version:	2.5.0
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Libraries
 Source0:	https://github.com/lxqt/lximage-qt/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	3bec142eec14e1c3c40927dd9ecc36f2
+# Source0-md5:	be1c45d56b13ffeb0b9340e416bca592
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
@@ -22,8 +22,8 @@ BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	cups-devel
 BuildRequires:	libexif-devel
-BuildRequires:	libfm-qt-devel >= 2.4.0
-BuildRequires:	lxqt-build-tools >= 2.4.0
+BuildRequires:	libfm-qt-devel >= 2.5.0
+BuildRequires:	lxqt-build-tools >= 2.5.0
 BuildRequires:	qt6-linguist >= %{qtver}
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libXext-devel
